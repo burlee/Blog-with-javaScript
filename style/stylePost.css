@@ -19,6 +19,7 @@ button.backBtn{
     transition: .5s ease-in-out;
     font-weight: 700;
     z-index: 1;
+    cursor: pointer;
 }
 button.backBtn:hover{
     width: 100%;

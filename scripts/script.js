@@ -12,7 +12,6 @@
     articles = document.querySelectorAll('article');
 
     closeBtnAboMe.addEventListener('click', closeAboMeFn);
-    articleBtn.addEventListener('click', openAboMeFn);
 
 
     category1.addEventListener('click', function (){
@@ -93,10 +92,7 @@
         });
     });
     //
-    function openAboMeFn() {
-        containerModal.classList.remove('display');
-        document.body.classList.add('no-scroll');
-    };
+
 
     function closeAboMeFn() {
         containerModal.classList.add('display');
